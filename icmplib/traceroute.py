@@ -209,4 +209,4 @@ def traceroute(address, count=2, interval=0.05, timeout=2, first_hop=1,
 
             ttl += 1
 
-    return hops
+    return hops, address
